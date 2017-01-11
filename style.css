@@ -1,0 +1,305 @@
+/* Base CSS */
+
+.alignleft {
+	float: left;
+	margin-right: 15px;
+}
+
+.alignright {
+	float: right;
+	margin-left: 15px;
+}
+
+.aligncenter {
+	display: block;
+	margin: 0 auto 15px;
+}
+
+a:focus {
+	outline: 0 solid
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0 0 15px;
+	font-weight: 700;
+}
+
+html,
+body {
+	height: 100%
+}
+
+body {
+	font-family: Georgia;
+	font-size: 20px;
+	color: #444343;
+}
+
+a:hover {
+	text-decoration: none
+}
+
+
+/* Remove Chrome Input Field's Unwanted Yellow Background Color */
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+	-webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+
+.section-padding {
+	padding-top: 75px;
+	padding-bottom: 75px;
+}
+
+.item > img {
+	width: 100%;
+}
+
+.head-foot-padding {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.social-link-area {
+	float: right;
+}
+
+.social-link-area a {
+	padding: 0 5px;
+	color: #686868;
+}
+
+.logo-area p {
+	font-size: 18px;
+	font-style: italic;
+	color: #444343;
+}
+
+.nav-area {
+	background: rgba(0, 0, 0, 0) url("img/cheap.png") repeat scroll 0 0;
+	border-bottom: 2px solid #fff;
+	padding-bottom: 250px;
+	z-index: -1;
+	position: relative;
+}
+
+.slider-area {
+	width: 100%;
+	position: absolute;
+	top: 100px;
+	z-index: 1;
+}
+
+.left.fawesome-control {
+	background: #272727 none repeat scroll 0 0;
+	border-radius: 50%;
+	color: #fff;
+	font-size: 40px;
+	left: 35px;
+	padding-left: 20px;
+	padding-right: 20px;
+	position: absolute;
+	top: 220px;
+}
+
+.right.fawesome-control {
+	background: #272727 none repeat scroll 0 0;
+	border-radius: 50%;
+	color: #fff;
+	font-size: 40px;
+	right: 35px;
+	padding-left: 20px;
+	padding-right: 20px;
+	position: absolute;
+	top: 220px;
+}
+
+.carousel-indicators {
+	bottom: -38px;
+	position: absolute;
+}
+
+.carousel-indicators li {
+	background-color: #dddddd;
+	border-radius: 10px;
+	cursor: pointer;
+	display: inline-block;
+	height: 10px;
+	margin: 1px;
+	text-indent: -999px;
+	width: 10px;
+}
+
+.carousel-indicators .active {
+	background-color: #000;
+	height: 12px;
+	margin: 0;
+	width: 12px;
+	border: 2px solid;
+}
+
+.slider-bottom-area {
+	margin-top: 250px;
+}
+
+.slider-bottom-head.text-center > h2 {
+	font-size: 28px;
+	font-weight: normal;
+	margin-bottom: 30px;
+}
+
+.slider-bottom-head h1 {
+	font-size: 60px;
+	margin-bottom: 80px;
+}
+
+.slider-body {
+	padding-right: 10px;
+}
+
+.slider-body > p {
+	font-family: Georgia Regular;
+	font-weight: 100;
+}
+
+span {
+	padding-right: 10px;
+}
+
+.slider-body > h2 {
+	font-size: 20px;
+}
+
+.portfolio-area {
+	background: rgba(0, 0, 0, 0) url("img/cheap.png") repeat scroll 0 0;
+}
+
+.single-image > img {
+	margin-bottom: 15px;
+	margin-right: 15px;
+}
+
+.image-right {
+	position: relative;
+}
+
+.image-right img {
+	background: #fff none repeat scroll 0 0;
+	border: 1px solid #eee;
+	padding: 4px;
+}
+
+.image-right-text {
+	background: #000000 none repeat scroll 0 0;
+	bottom: 0;
+	color: #fff;
+	opacity: 0.6;
+	padding: 10px 30px;
+	position: absolute;
+}
+
+.contact-person > p {
+	font-family: georgia regular;
+}
+
+.contact-form input[type="text"] {
+	background: #ebebeb none repeat scroll 0 0;
+	border: 2px solid #fff;
+	border-radius: 2px;
+	box-shadow: 0 0 3px;
+	display: block;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-top: 20px;
+	width: 100%;
+}
+
+.contact-form textarea {
+	background: #ebebeb none repeat scroll 0 0;
+	border: 2px solid #fff;
+	border-radius: 2px;
+	display: block;
+	height: 200px;
+	margin-bottom: 20px;
+	padding-left: 10px;
+	padding-top: 10px;
+	resize: none;
+	width: 100%;
+	box-shadow: 0 0 3px;
+}
+
+.btn2 {
+	-moz-user-select: none;
+	background-color: #ebebeb;
+	background-image: none;
+	border: 2px solid #fff;
+	border-radius: 4px;
+	box-shadow: 0 0 3px;
+	color: #7f7f7f;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 1.42857;
+	margin-bottom: 0;
+	padding: 11px 40px;
+	text-align: center;
+	vertical-align: middle;
+	white-space: nowrap;
+}
+
+.person-image {
+	float: left;
+}
+
+.person-image > img {
+	padding-bottom: 20px;
+	padding-right: 20px;
+}
+
+.contact-person > h2 {
+	font-size: 20px;
+	font-weight: normal;
+	position: relative;
+	top: 7px;
+}
+
+.block {
+	display: block;
+}
+
+.contact {
+	margin-top: 40px;
+	font-style: italic;
+	margin-bottom: 0;
+}
+
+.email {
+	font-style: italic;
+}
+
+.follow {
+	margin-top: 35px;
+}
+
+.social {
+	font-style: italic;
+}
+
+.footer-container {
+	border-top: 1px solid #333;
+	padding-top: 30px;
+}
